@@ -17,3 +17,13 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
 | POST   | /places/:id/rant         | Create a rant (comment) about a particular place |
 | DELETE | /places/:id/rant/:rantId | Delete a rant (comment) about a particular place |
 | GET    | *                        | 404 page (matches any route not defined above)   |
+
+| field    |   type    |
+|----------|-----------|
+| _id      | object id |
+| name     | string    |
+| city     | string    |
+| state    | string    |
+| cuisines | string    |
+| pic      | string    |
+
