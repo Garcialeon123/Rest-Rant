@@ -27,3 +27,12 @@ https://docs.github.com/en/get-started/writing-on-github/getting-started-with-wr
 | cuisines | string    |
 | pic      | string    |
 
+| field    |      type             |
+|----------|-----------------------|
+| _id      | Object ID             |
+| place_id | ref(places) Object_Id |
+| rant     | Boolean               |
+| rating   | Number                |
+| comment  | String                |
+| reviewer | String                |
+
